@@ -9,7 +9,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: qwerty
     volumes:
-      - C:/Users/20pra/Downloads/UbuntuData:/data/db
+      - {Your Path}Downloads/UbuntuData:/data/db
   
   mongo-express:
     image: mongo-express
